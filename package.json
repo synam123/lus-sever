@@ -1,0 +1,42 @@
+{
+  "name": "lus-server",
+  "version": "1.0.0",
+  "description": "- Project name: Lovely - Language: Java Script - Framework: NodeJs - Group : VTNPlusD - Leader: Nguyen Ngoc Duy - Member: Tran Quoc Viet - Start date: 09/01/2020 - End date:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Note: test in here\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-olololoe:VTNPlusD/lus-sever.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VTNPlusD/lus-sever/issues"
+  },
+  "homepage": "https://github.com/VTNPlusD/lus-sever#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-validator": "^6.6.1",
+    "googleapis": "^64.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0",
+    "swagger-ui-express": "^4.1.4",
+    "uuid": "^8.3.0",
+    "yamljs": "^0.3.0"
+  }
+}
